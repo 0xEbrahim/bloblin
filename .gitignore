@@ -1,0 +1,27 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Default runtime data and build output
+/data/
+/bin/
+/dist/
+/bloblin
+/bloblin.exe
+*.test
+*.test.exe
+
+# Coverage, profiling, temporary output
+/coverage/
+coverage*.out
+coverage*.html
+*.prof
+*.tmp
+*.log
+/tmp/
+/temp/
+
+# Local IDE settings
+.idea/
+.vscode/
